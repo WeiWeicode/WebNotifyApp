@@ -4,8 +4,9 @@ import { VitePWA } from 'vite-plugin-pwa'
 
 // https://vitejs.dev/config/
 export default defineConfig({
+  base: '/WebNotifyApp/',
   server: {
-    host: '0.0.0.0',    
+    host: '0.0.0.0',
     port: 5131,
     allowedHosts: "all",
     // open
@@ -41,7 +42,7 @@ export default defineConfig({
         enabled: true,
         type: 'module',
       },
-      
+
     })
   ],
 })
