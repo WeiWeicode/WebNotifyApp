@@ -25,6 +25,4 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
-package-lock.json
-package.json
 send-test-push.js

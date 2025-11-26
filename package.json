@@ -1,0 +1,15 @@
+{
+  "name": "webnotifyapp",
+  "version": "1.0.0",
+  "main": "send-test-push.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "web-push": "^3.6.7"
+  }
+}
